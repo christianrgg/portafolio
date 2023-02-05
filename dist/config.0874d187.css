@@ -129,7 +129,7 @@ svg {
 }
 .loading__bar--inner {
   height: 100%;
-  width: 25%;
+  width: 0;
   border-radius: 2px;
   background: #6cff8d;
 }
@@ -200,6 +200,14 @@ svg {
   100% {
     width: 280px;
   }
+}
+.loading__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=/config.0874d187.css.map */
