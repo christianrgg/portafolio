@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bigboz");
+@import url("https://fonts.cdnfonts.com/css/duty-beauty");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -15,7 +17,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Poppins", "Orbitron", sans-serif;
+  font-family: "Poppins", "Orbitron", "Duty Beauty", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -54,6 +56,8 @@ ul {
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bigboz");
+@import url("https://fonts.cdnfonts.com/css/duty-beauty");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -70,7 +74,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Poppins", "Orbitron", sans-serif;
+  font-family: "Poppins", "Orbitron", "Duty Beauty", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -225,9 +229,66 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 85%;
+  width: 75%;
   opacity: 0;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bigboz");
+@import url("https://fonts.cdnfonts.com/css/duty-beauty");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", "Orbitron", "Duty Beauty", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
 .landing {
   position: relative;
   width: 100%;
@@ -235,12 +296,15 @@ ul {
   background: #111;
   color: #fff;
   overflow: hidden;
+  background-image: url(/214.34ea2a2c.jpg);
+  background-size: cover;
 }
 .landing .header {
   position: absolute;
   top: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 .landing .header__wrap {
   width: 60vw;
@@ -287,12 +351,14 @@ ul {
   display: flex;
   align-items: center;
   gap: 1rem;
+  z-index: 2;
 }
 .landing .scrollDown {
   position: absolute;
   bottom: 3rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 .landing .scrollDown__wheel {
   height: 42px;
@@ -361,8 +427,80 @@ ul {
     opacity: 1;
   }
 }
+.landing .intro {
+  position: absolute;
+  top: 30%;
+  left: 1rem;
+  width: 100%;
+  height: 60%;
+  z-index: 2;
+  color: #fff;
+}
+.landing .intro h4 {
+  font-size: 33px;
+}
+.landing .intro h1 {
+  font-size: 35px;
+  width: 93%;
+  padding-top: 1rem;
+  font-family: "Poppins";
+}
+.landing .intro .intro__name {
+  font-family: "Duty Beauty";
+}
+@media (min-width: 1200px) {
+  .landing .intro {
+    left: 5%;
+  }
+}
+@media (max-width: 1004px) {
+  .landing .intro {
+    top: 27%;
+  }
+  .landing .intro h4 {
+    font-size: 28px;
+  }
+  .landing .intro h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 665px) {
+  .landing .intro {
+    top: 27%;
+  }
+  .landing .intro h4 {
+    font-size: 28px;
+  }
+  .landing .intro h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 665px) {
+  .landing .intro {
+    top: 27%;
+  }
+  .landing .intro h4 {
+    font-size: 28px;
+  }
+  .landing .intro h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 425px) {
+  .landing .intro {
+    top: 30%;
+  }
+  .landing .intro h4 {
+    font-size: 20px;
+  }
+  .landing .intro h1 {
+    font-size: 20px;
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bigboz");
+@import url("https://fonts.cdnfonts.com/css/duty-beauty");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -378,7 +516,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Poppins", "Orbitron", sans-serif;
+  font-family: "Poppins", "Orbitron", "Duty Beauty", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -527,6 +665,120 @@ ul {
   }
   100% {
     text-shadow: 5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bigboz");
+@import url("https://fonts.cdnfonts.com/css/duty-beauty");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", "Orbitron", "Duty Beauty", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.skills {
+  position: relative;
+  font-size: 40px;
+  height: 300px;
+  background: #ffea5c;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 1rem;
+}
+.skills__header {
+  font-weight: 600;
+}
+.skills__text {
+  position: absolute;
+  white-space: nowrap;
+  font-family: sans-serif;
+}
+.skills__text--left {
+  left: 0;
+  top: 6rem;
+  animation: moveleft 30s linear infinite;
+}
+@keyframes moveleft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.skills__text--right {
+  right: 0;
+  top: 11rem;
+  animation: moveright 30s linear infinite;
+}
+@keyframes moveright {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(50%, 0, 0);
+  }
+}
+@media (max-width: 700px) {
+  .skills {
+    height: 200px;
+  }
+  .skills__text {
+    font-size: 25px;
+  }
+  .skills__text--left {
+    top: 5rem;
+  }
+  .skills__text--right {
+    top: 8rem;
   }
 }
 

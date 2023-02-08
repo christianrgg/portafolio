@@ -1,3 +1,4 @@
+@import "./base.scss";
 .landing {
     position: relative;
     width: 100%;
@@ -5,18 +6,20 @@
     background: #111;
     color: #fff;
     overflow: hidden;
+    background-image: url(../images/214.jpg);
+    background-size: cover;
     .header {
         position: absolute;
         top: 1rem;
         left: 50%;
         transform: translateX(-50%);
+        z-index: 2;
         &__wrap {
             width: 60vw;
             padding: 10px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            
         }
         &__left {
             display: flex;
@@ -57,12 +60,14 @@
         display: flex;
         align-items: center;
         gap: 1rem;
+        z-index: 2;
     }
     .scrollDown {
         position: absolute;
         bottom: 3rem;
         left: 50%;
         transform: translateX(-50%);
+        z-index: 2;
         &__wheel {
             height: 42px;
             width: 24px;
@@ -131,5 +136,76 @@
                 }
             }
         }
+    }
+    .intro {
+        position: absolute;
+        top: 30%;
+        left: 1rem;
+        width: 100%;
+        height: 60%;
+        z-index: 2;
+        color: #fff;
+        & h4 {
+            font-size: 33px;
+        }
+        & h1{
+            font-size: 35px;
+            width: 93%;
+            padding-top: 1rem; 
+            font-family: 'Poppins'; 
+        }
+        & .intro__name {
+            font-family:'Duty Beauty';
+        }
+        @media(min-width:1200px) {
+            & {
+              left: 5%;
+            }
+        }
+        @media(max-width:1004px) {
+            & {
+              top: 27%;
+            }
+            & h4 {
+                font-size: 28px;
+            }
+            & h1 {
+                font-size: 28px;
+            }
+        }
+        @media(max-width:665px) {
+            & {
+              top: 27%;
+            }
+            & h4 {
+                font-size: 28px;
+            }
+            & h1 {
+                font-size: 28px;
+            }
+        }
+        @media(max-width:665px) {
+            & {
+              top: 27%;
+            }
+            & h4 {
+                font-size: 28px;
+            }
+            & h1 {
+                font-size: 28px;
+            }
+        }
+        @media(max-width:425px) {
+            & {
+              top:30%;
+            }
+            & h4 {
+                font-size: 20px;
+            }
+            & h1 {
+                font-size: 20px;
+            }
+        }
+
     }
 }

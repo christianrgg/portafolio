@@ -5556,7 +5556,7 @@ var barInterval = setInterval(function () {
     _gsap.default.to(".loading", {
       delay: 2,
       duration: 2,
-      // zIndex: 1,
+      zIndex: 2,
       background: "transparent",
       opacity: 0.5
     });
@@ -5592,7 +5592,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58975" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58696" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
