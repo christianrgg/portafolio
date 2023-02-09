@@ -52,7 +52,7 @@ let barInterval = setInterval(()=>{
 },20);
 
 var swiper = new Swiper(".swiper", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",

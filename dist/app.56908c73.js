@@ -15273,7 +15273,7 @@ var barInterval = setInterval(function () {
   }
 }, 20);
 var swiper = new _swiper.default(".swiper", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
@@ -15305,7 +15305,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61465" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62121" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
