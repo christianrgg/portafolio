@@ -329,7 +329,6 @@ ul {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #111;
   color: #fff;
   overflow: hidden;
   background-image: url(/214.34ea2a2c.jpg);
@@ -969,7 +968,7 @@ ul {
 }
 
 .swiper {
-  min-height: 500px;
+  user-select: none;
 }
 
 .review {

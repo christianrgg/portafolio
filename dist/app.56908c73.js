@@ -15219,11 +15219,129 @@ var _effectCoverflow = _interopRequireDefault(require("./modules/effect-coverflo
 var _effectCreative = _interopRequireDefault(require("./modules/effect-creative/effect-creative.js"));
 var _effectCards = _interopRequireDefault(require("./modules/effect-cards/effect-cards.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./core/core.js":"../node_modules/swiper/core/core.js","./modules/virtual/virtual.js":"../node_modules/swiper/modules/virtual/virtual.js","./modules/keyboard/keyboard.js":"../node_modules/swiper/modules/keyboard/keyboard.js","./modules/mousewheel/mousewheel.js":"../node_modules/swiper/modules/mousewheel/mousewheel.js","./modules/navigation/navigation.js":"../node_modules/swiper/modules/navigation/navigation.js","./modules/pagination/pagination.js":"../node_modules/swiper/modules/pagination/pagination.js","./modules/scrollbar/scrollbar.js":"../node_modules/swiper/modules/scrollbar/scrollbar.js","./modules/parallax/parallax.js":"../node_modules/swiper/modules/parallax/parallax.js","./modules/zoom/zoom.js":"../node_modules/swiper/modules/zoom/zoom.js","./modules/controller/controller.js":"../node_modules/swiper/modules/controller/controller.js","./modules/a11y/a11y.js":"../node_modules/swiper/modules/a11y/a11y.js","./modules/history/history.js":"../node_modules/swiper/modules/history/history.js","./modules/hash-navigation/hash-navigation.js":"../node_modules/swiper/modules/hash-navigation/hash-navigation.js","./modules/autoplay/autoplay.js":"../node_modules/swiper/modules/autoplay/autoplay.js","./modules/thumbs/thumbs.js":"../node_modules/swiper/modules/thumbs/thumbs.js","./modules/free-mode/free-mode.js":"../node_modules/swiper/modules/free-mode/free-mode.js","./modules/grid/grid.js":"../node_modules/swiper/modules/grid/grid.js","./modules/manipulation/manipulation.js":"../node_modules/swiper/modules/manipulation/manipulation.js","./modules/effect-fade/effect-fade.js":"../node_modules/swiper/modules/effect-fade/effect-fade.js","./modules/effect-cube/effect-cube.js":"../node_modules/swiper/modules/effect-cube/effect-cube.js","./modules/effect-flip/effect-flip.js":"../node_modules/swiper/modules/effect-flip/effect-flip.js","./modules/effect-coverflow/effect-coverflow.js":"../node_modules/swiper/modules/effect-coverflow/effect-coverflow.js","./modules/effect-creative/effect-creative.js":"../node_modules/swiper/modules/effect-creative/effect-creative.js","./modules/effect-cards/effect-cards.js":"../node_modules/swiper/modules/effect-cards/effect-cards.js"}],"assets/js/app.js":[function(require,module,exports) {
+},{"./core/core.js":"../node_modules/swiper/core/core.js","./modules/virtual/virtual.js":"../node_modules/swiper/modules/virtual/virtual.js","./modules/keyboard/keyboard.js":"../node_modules/swiper/modules/keyboard/keyboard.js","./modules/mousewheel/mousewheel.js":"../node_modules/swiper/modules/mousewheel/mousewheel.js","./modules/navigation/navigation.js":"../node_modules/swiper/modules/navigation/navigation.js","./modules/pagination/pagination.js":"../node_modules/swiper/modules/pagination/pagination.js","./modules/scrollbar/scrollbar.js":"../node_modules/swiper/modules/scrollbar/scrollbar.js","./modules/parallax/parallax.js":"../node_modules/swiper/modules/parallax/parallax.js","./modules/zoom/zoom.js":"../node_modules/swiper/modules/zoom/zoom.js","./modules/controller/controller.js":"../node_modules/swiper/modules/controller/controller.js","./modules/a11y/a11y.js":"../node_modules/swiper/modules/a11y/a11y.js","./modules/history/history.js":"../node_modules/swiper/modules/history/history.js","./modules/hash-navigation/hash-navigation.js":"../node_modules/swiper/modules/hash-navigation/hash-navigation.js","./modules/autoplay/autoplay.js":"../node_modules/swiper/modules/autoplay/autoplay.js","./modules/thumbs/thumbs.js":"../node_modules/swiper/modules/thumbs/thumbs.js","./modules/free-mode/free-mode.js":"../node_modules/swiper/modules/free-mode/free-mode.js","./modules/grid/grid.js":"../node_modules/swiper/modules/grid/grid.js","./modules/manipulation/manipulation.js":"../node_modules/swiper/modules/manipulation/manipulation.js","./modules/effect-fade/effect-fade.js":"../node_modules/swiper/modules/effect-fade/effect-fade.js","./modules/effect-cube/effect-cube.js":"../node_modules/swiper/modules/effect-cube/effect-cube.js","./modules/effect-flip/effect-flip.js":"../node_modules/swiper/modules/effect-flip/effect-flip.js","./modules/effect-coverflow/effect-coverflow.js":"../node_modules/swiper/modules/effect-coverflow/effect-coverflow.js","./modules/effect-creative/effect-creative.js":"../node_modules/swiper/modules/effect-creative/effect-creative.js","./modules/effect-cards/effect-cards.js":"../node_modules/swiper/modules/effect-cards/effect-cards.js"}],"assets/images/1.png":[function(require,module,exports) {
+module.exports = "/1.42531044.png";
+},{}],"assets/images/2.png":[function(require,module,exports) {
+module.exports = "/2.3e551bcf.png";
+},{}],"assets/images/3.png":[function(require,module,exports) {
+module.exports = "/3.9498cff5.png";
+},{}],"assets/images/4.png":[function(require,module,exports) {
+module.exports = "/4.3405451d.png";
+},{}],"assets/images/5.png":[function(require,module,exports) {
+module.exports = "/5.d52fb4b5.png";
+},{}],"assets/images/6.png":[function(require,module,exports) {
+module.exports = "/6.1718b644.png";
+},{}],"assets/images/7.png":[function(require,module,exports) {
+module.exports = "/7.82dac681.png";
+},{}],"assets/images/8.png":[function(require,module,exports) {
+module.exports = "/8.f628ca63.png";
+},{}],"assets/images/9.png":[function(require,module,exports) {
+module.exports = "/9.2b11add7.png";
+},{}],"assets/images/10.png":[function(require,module,exports) {
+module.exports = "/10.1b6ebfb4.png";
+},{}],"assets/images/11.png":[function(require,module,exports) {
+module.exports = "/11.6a89ef45.png";
+},{}],"assets/js/images.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _ = _interopRequireDefault(require("../images/1.png"));
+var _2 = _interopRequireDefault(require("../images/2.png"));
+var _3 = _interopRequireDefault(require("../images/3.png"));
+var _4 = _interopRequireDefault(require("../images/4.png"));
+var _5 = _interopRequireDefault(require("../images/5.png"));
+var _6 = _interopRequireDefault(require("../images/6.png"));
+var _7 = _interopRequireDefault(require("../images/7.png"));
+var _8 = _interopRequireDefault(require("../images/8.png"));
+var _9 = _interopRequireDefault(require("../images/9.png"));
+var _10 = _interopRequireDefault(require("../images/10.png"));
+var _11 = _interopRequireDefault(require("../images/11.png"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var images = {
+  avatar1: _.default,
+  avatar2: _2.default,
+  avatar4: _4.default,
+  avatar3: _3.default,
+  avatar5: _5.default,
+  avatar6: _6.default,
+  avatar7: _7.default,
+  avatar8: _8.default,
+  avatar9: _9.default,
+  avatar10: _10.default,
+  avatar11: _11.default
+};
+var _default = images;
+exports.default = _default;
+},{"../images/1.png":"assets/images/1.png","../images/2.png":"assets/images/2.png","../images/3.png":"assets/images/3.png","../images/4.png":"assets/images/4.png","../images/5.png":"assets/images/5.png","../images/6.png":"assets/images/6.png","../images/7.png":"assets/images/7.png","../images/8.png":"assets/images/8.png","../images/9.png":"assets/images/9.png","../images/10.png":"assets/images/10.png","../images/11.png":"assets/images/11.png"}],"assets/js/data.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.reviews = void 0;
+var _images = _interopRequireDefault(require("./images"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var reviews = [{
+  name: "Waleed Alkathiri",
+  position: "Frontend Developer",
+  image: _images.default.avatar2,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Sai Hernández",
+  position: "Full Stack Developer",
+  image: _images.default.avatar3,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Ali Ebrahimi",
+  position: "Backend developer",
+  image: _images.default.avatar4,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Erick Sosa",
+  position: "Full Stack Developer",
+  image: _images.default.avatar5,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Vishal Sharma",
+  position: "Backend Developer",
+  image: _images.default.avatar6,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Manuel Poot",
+  position: "Fronted Developer",
+  image: _images.default.avatar7,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Rey Rejon",
+  position: "Ful Stack Deeveloper",
+  image: _images.default.avatar8,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Arely Garcia",
+  position: "Fronted Developer",
+  image: _images.default.avatar9,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Norma Gutierrez",
+  position: "Student",
+  image: _images.default.avatar10,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}, {
+  name: "Lorenzo Garcia",
+  position: "Student",
+  image: _images.default.avatar11,
+  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}];
+exports.reviews = reviews;
+},{"./images":"assets/js/images.js"}],"assets/js/app.js":[function(require,module,exports) {
 "use strict";
 
 var _gsap = _interopRequireDefault(require("gsap"));
 var _swiper = _interopRequireDefault(require("swiper"));
+var _data = require("./data");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var bar = document.querySelector(".loading__bar--inner");
 var counter_num = document.querySelector(".loading__counter--number");
@@ -15272,15 +15390,34 @@ var barInterval = setInterval(function () {
     });
   }
 }, 20);
+
+//Reviews Swiper 
 var swiper = new _swiper.default(".swiper", {
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true
+  },
+  breakpoints: {
+    850: {
+      slidesPerView: 2
+    },
+    1400: {
+      slidesPerView: 3
+    },
+    1900: {
+      slidesPerView: 4
+    }
   }
 });
-},{"gsap":"../node_modules/gsap/index.js","swiper":"../node_modules/swiper/swiper.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var swiper_container = document.querySelector(".swiper-wrapper");
+_data.reviews.map(function (review) {
+  var template = "<div class=\"swiper-slide\">\n        <div class=\"review\">\n            <svg width=\"100%\" height=\"100%\" viewBox=\"0 0 33 27\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.999961 20.2398C0.91996 19.0398 0.959962 17.6398 1.11996 16.0398C1.35996 14.3598 2.27997 11.9198 3.87996 8.71984C5.55996 5.43985 7.95996 2.59983 11.08 0.199829H11.68C11.52 0.359831 11.28 0.559832 10.96 0.799829C10.72 0.959831 10.24 1.39983 9.51996 2.11983C8.79996 2.83983 8.15997 3.55984 7.59996 4.27984C7.03995 4.91983 6.55995 5.71984 6.15996 6.67984C5.75997 7.55982 5.55996 8.43982 5.55996 9.31984C5.63997 10.1198 6.03996 10.9598 6.75996 11.8398C7.47996 12.6398 8.55996 13.3598 9.99996 13.9998C12.8 15.1198 14.2 17.1598 14.2 20.1198C14.2 21.7998 13.5199 23.3198 12.16 24.6798C10.88 25.9598 9.31995 26.5998 7.47996 26.5998C5.79996 26.5998 4.27995 25.9598 2.91996 24.6798C1.63995 23.3998 0.999961 21.9198 0.999961 20.2398ZM19.36 20.2398C19.28 19.0398 19.32 17.6398 19.48 16.0398C19.72 14.3598 20.64 11.9198 22.24 8.71984C23.92 5.43985 26.32 2.59983 29.44 0.199829H30.04C29.8801 0.359831 29.6401 0.559832 29.32 0.799829C29.08 0.959831 28.6 1.39983 27.88 2.11983C27.16 2.83983 26.52 3.55984 25.96 4.27984C25.48 4.91983 25 5.71984 24.52 6.67984C24.12 7.55982 23.92 8.43982 23.92 9.31984C24 10.1198 24.4 10.9598 25.12 11.8398C25.84 12.6398 26.92 13.3598 28.36 13.9998C31.1599 15.0398 32.56 17.0798 32.56 20.1198C32.56 21.7998 31.8799 23.3198 30.52 24.6798C29.2399 25.9598 27.68 26.5998 25.84 26.5998C24.16 26.5998 22.64 25.9598 21.28 24.6798C20 23.3998 19.36 21.9198 19.36 20.2398Z\"></path></svg>\n            <div class=\"review__card\">\n                <div class=\"review__topborder\"></div>\n                <div class=\"review__text\">\n                    <span>".concat(review.review.substring(0, 1), "</span>\n                    ").concat(review.review.substring(1, review.review.length), " \n                </div>\n                <img src=\"").concat(review.image, "\" alt=\"\" class=\"review__img\">\n                <div class=\"review__profile\">\n                    <span>").concat(review.name, "</span>\n                    <span>").concat(review.position, "</span>\n                </div>\n            </div>\n        </div>\n    </div>");
+  swiper_container.innerHTML += template;
+  console.log(review);
+});
+},{"gsap":"../node_modules/gsap/index.js","swiper":"../node_modules/swiper/swiper.esm.js","./data":"assets/js/data.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -15305,7 +15442,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62121" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53449" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

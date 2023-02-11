@@ -56,7 +56,8 @@
     padding: 2rem 0;
 }
 .swiper {
-    min-height: 500px;
+    
+    user-select: none;
 }
 .review {
     position: relative;
