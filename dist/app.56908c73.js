@@ -15334,11 +15334,6 @@ var reviews = [{
   position: "Student",
   image: _images.default.avatar11,
   review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-}, {
-  name: "",
-  position: "",
-  image: "",
-  review: ""
 }];
 exports.reviews = reviews;
 },{"./images":"assets/js/images.js"}],"assets/js/app.js":[function(require,module,exports) {
@@ -15405,7 +15400,6 @@ var swiper = new _swiper.default(".swiper", {
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
-    type: "bullets",
     clickable: true
   },
   navigation: {
@@ -15454,7 +15448,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49625" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50083" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

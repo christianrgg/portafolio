@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import Swiper, {Pagination, Navigation} from "swiper";
+import Swiper, {Navigation, Pagination} from "swiper";
 import { reviews } from "./data";
 
 const bar = document.querySelector(`.loading__bar--inner`);
@@ -59,7 +59,6 @@ var swiper = new Swiper(".swiper", {
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
-      type:"bullets",
       clickable: true,
     },
     navigation: {

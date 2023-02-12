@@ -943,10 +943,16 @@ ul {
   font-family: sans-serif;
 }
 .reviews__headers .instructor__img {
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   border-right: 2px solid #f44336;
+}
+@media (min-width: 400px) {
+  .reviews__headers .instructor__img {
+    width: 150px;
+    height: 150px;
+  }
 }
 .reviews__headers .instructor__col {
   display: flex;
@@ -993,6 +999,11 @@ ul {
   width: 30px;
   fill: #f44336;
 }
+@media (min-width: 500px) {
+  .review svg {
+    width: 40px;
+  }
+}
 .review__topborder {
   width: 100%;
   height: 1px;
@@ -1024,13 +1035,11 @@ ul {
 }
 
 .swiper-slide {
-  filter: blur(2px) !important;
   transform: scale(0.8) !important;
   transition: all 0.2s;
 }
 
 .swiper-slide-active {
-  filter: blur(0) !important;
   transform: scale(1) !important;
 }
 
@@ -1048,11 +1057,16 @@ ul {
 .swiper__buttons button {
   position: relative;
   background-color: transparent;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
   border-radius: 50px;
-  border: 1px solid hsl(208deg, 96%, 74%);
+  border: 1px solid #fff;
   margin-right: 1rem;
   user-select: none;
+}
+@media (min-width: 370px) {
+  .swiper__buttons button {
+    padding: 0.5rem 3rem;
+  }
 }
 .swiper__buttons button:after {
   display: none;
@@ -1066,6 +1080,17 @@ ul {
 
 .swiper-pagination {
   position: relative;
+}
+
+.swiper-pagination-bullet {
+  width: 35px;
+  height: 4px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  width: 70px;
 }
 /**
  * Swiper 9.0.3
