@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import Swiper from "swiper";
+import Swiper, {Pagination, Navigation} from "swiper";
 import { reviews } from "./data";
 
 const bar = document.querySelector(`.loading__bar--inner`);
@@ -53,12 +53,18 @@ let barInterval = setInterval(()=>{
 },20);
 
 //Reviews Swiper 
+Swiper.use([Pagination, Navigation]);
 var swiper = new Swiper(".swiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
+      type:"bullets",
       clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     breakpoints:{
         850:{
@@ -94,5 +100,4 @@ reviews.map((review)=>{
         </div>
     </div>`;
     swiper_container.innerHTML += template;
-    console.log(review);
 });

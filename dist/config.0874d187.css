@@ -983,6 +983,12 @@ ul {
   padding: 2rem 0;
   display: flex;
 }
+@media (min-width: 650px) {
+  .review__card {
+    font-size: 18;
+    font-family: sans-serif;
+  }
+}
 .review svg {
   width: 30px;
   fill: #f44336;
@@ -1016,6 +1022,51 @@ ul {
   font-family: sans-serif;
   font-size: 17px;
 }
+
+.swiper-slide {
+  filter: blur(2px) !important;
+  transform: scale(0.8) !important;
+  transition: all 0.2s;
+}
+
+.swiper-slide-active {
+  filter: blur(0) !important;
+  transform: scale(1) !important;
+}
+
+.swiper__tools {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 0 4rem 0 2rem;
+}
+
+.swiper__buttons {
+  display: flex;
+}
+.swiper__buttons button {
+  position: relative;
+  background-color: transparent;
+  padding: 0.5rem 3rem;
+  border-radius: 50px;
+  border: 1px solid hsl(208deg, 96%, 74%);
+  margin-right: 1rem;
+  user-select: none;
+}
+.swiper__buttons button:after {
+  display: none;
+}
+.swiper__buttons button img {
+  filter: invert(100%);
+}
+.swiper__buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.1294117647);
+}
+
+.swiper-pagination {
+  position: relative;
+}
 /**
  * Swiper 9.0.3
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -1046,7 +1097,6 @@ swiper-container {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  overflow: hidden;
   list-style: none;
   padding: 0;
   /* Fix of Webkit flickering */
