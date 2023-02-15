@@ -45,14 +45,14 @@
                 width: 25px;
                 height: 25px;
             }
-            &.open .question__answer {
-                display: block;
-            }
-            &.open .question__status {
-                background: #0f0f0f;
-                outline: 1px solid #0f0f0f;
-                outline-offset: 2px;
-            }
         }
+        &.open .question__answer {
+            display: block;
+        }
+        &.open .question__status {
+            background: #0f0f0f;
+            outline: 1px solid #0f0f0f;
+            outline-offset: 2px;
+        } 
     }
 }

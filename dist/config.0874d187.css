@@ -1623,10 +1623,10 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
     height: 25px;
   }
 }
-.faq .question__status.open .question__answer {
+.faq .question.open .question__answer {
   display: block;
 }
-.faq .question__status.open .question__status {
+.faq .question.open .question__status {
   background: #0f0f0f;
   outline: 1px solid #0f0f0f;
   outline-offset: 2px;
