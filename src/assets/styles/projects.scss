@@ -61,26 +61,26 @@
         flex-direction: column;
         gap: 1rem;
     }
-    .coolFunnyLink {
-        position: relative;
-        font-family: sans-serif;
-        svg {
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            stroke-width: 1px;
-            width: 95px;
-            path {
-                stroke-dasharray: 1;
-                stroke-dashoffset: 1;
-                transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
-            }
+}
+.coolFunnyLink {
+    position: relative;
+    font-family: sans-serif;
+    svg {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        stroke-width: 1px;
+        width: 95px;
+        path {
+            stroke-dasharray: 1;
+            stroke-dashoffset: 1;
+            transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
         }
-        &:hover {
-            svg path {
-                stroke-dashoffset: 0;
-                transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
-            }
+    }
+    &:hover {
+        svg path {
+            stroke-dashoffset: 0;
+            transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
         }
     }
 }

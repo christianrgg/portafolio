@@ -47,8 +47,24 @@
         gap: 3rem;
         padding-bottom: 3rem
         & {
-            font-size: 25px
+            font-size: 20px
         };
+    }
+    &__footer {
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        &-link {
+            width: 100%;
+            text-align: center;
+            @media (max-width:900px) {
+                font-size: 14px;
+            }
+        }
     }
 }
 .form {

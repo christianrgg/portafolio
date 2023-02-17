@@ -1437,23 +1437,24 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   flex-direction: column;
   gap: 1rem;
 }
-.project .coolFunnyLink {
+
+.coolFunnyLink {
   position: relative;
   font-family: sans-serif;
 }
-.project .coolFunnyLink svg {
+.coolFunnyLink svg {
   position: absolute;
   bottom: -5px;
   left: 0;
   stroke-width: 1px;
   width: 95px;
 }
-.project .coolFunnyLink svg path {
+.coolFunnyLink svg path {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
   transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
 }
-.project .coolFunnyLink:hover svg path {
+.coolFunnyLink:hover svg path {
   stroke-dashoffset: 0;
   transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
 }
@@ -1682,7 +1683,25 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   flex-wrap: wrap;
   gap: 3rem;
   padding-bottom: 3rem .contact__socials;
-  padding-bottom-font-size: 25px;
+  padding-bottom-font-size: 20px;
+}
+.contact__footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.contact__footer-link {
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .contact__footer-link {
+    font-size: 14px;
+  }
 }
 
 .form__info {
