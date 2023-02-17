@@ -1685,6 +1685,18 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   padding-bottom: 3rem .contact__socials;
   padding-bottom-font-size: 20px;
 }
+@media (max-width: 900px) {
+  .contact__socials {
+    font-size: 14px;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 1100px) {
+  .contact__socials {
+    padding-bottom: 3rem;
+  }
+}
 .contact__footer {
   position: absolute;
   bottom: 1rem;
@@ -1693,6 +1705,11 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   align-items: center;
   justify-content: space-around;
   width: 100%;
+}
+@media (max-width: 765px) {
+  .contact__footer {
+    flex-wrap: wrap;
+  }
 }
 .contact__footer-link {
   width: 100%;
