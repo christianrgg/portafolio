@@ -982,7 +982,7 @@ ul {
   position: absolute;
   top: -10px;
   left: 20px;
-  width: 30%;
+  width: 28%;
   height: 120%;
   border-left: 2px solid #f44336;
   border-radius: 50%;
@@ -997,14 +997,14 @@ ul {
   font-family: sans-serif;
 }
 .reviews__headers .instructor__img {
-  width: 110px;
+  width: 91.5px;
   height: 110px;
   border-radius: 50%;
   border-right: 2px solid #f44336;
 }
 @media (min-width: 400px) {
   .reviews__headers .instructor__img {
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
 }

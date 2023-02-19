@@ -15,7 +15,7 @@
                 position: absolute;
                 top: -10px;
                 left: 20px;
-                width: 30%;
+                width: 28%;
                 height: 120%;
                 border-left: 2px solid $red-color;
                 border-radius: 50%;
@@ -30,13 +30,13 @@
                 font-family: sans-serif;
             }
             &__img {
-                width: 110px;
+                width: 91.5px;
                 height: 110px;
                 border-radius: 50%;
                 border-right: 2px solid $red-color;
                 @media (min-width:400px) {
                     & {
-                        width: 150px;
+                        width: 125px;
                         height: 150px;
                     }
                 } 

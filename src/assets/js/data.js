@@ -2,7 +2,7 @@ import images from "./images";
 
 let reviews = [
     {
-        name: "Michael Smith",
+        name: "David Jones",
         position: "Scrum Master",
         image: images.avatar6,
         review: "I like how you can work in a team and collaborate with other developers. You are always willing to share your knowledge and help others improve their work."

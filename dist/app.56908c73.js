@@ -15239,8 +15239,6 @@ module.exports = "/8.f628ca63.png";
 module.exports = "/9.2b11add7.png";
 },{}],"assets/images/10.png":[function(require,module,exports) {
 module.exports = "/10.1b6ebfb4.png";
-},{}],"assets/images/11.png":[function(require,module,exports) {
-module.exports = "/11.6a89ef45.png";
 },{}],"assets/js/images.js":[function(require,module,exports) {
 "use strict";
 
@@ -15258,7 +15256,6 @@ var _7 = _interopRequireDefault(require("../images/7.png"));
 var _8 = _interopRequireDefault(require("../images/8.png"));
 var _9 = _interopRequireDefault(require("../images/9.png"));
 var _10 = _interopRequireDefault(require("../images/10.png"));
-var _11 = _interopRequireDefault(require("../images/11.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var images = {
   avatar1: _.default,
@@ -15270,12 +15267,11 @@ var images = {
   avatar7: _7.default,
   avatar8: _8.default,
   avatar9: _9.default,
-  avatar10: _10.default,
-  avatar11: _11.default
+  avatar10: _10.default
 };
 var _default = images;
 exports.default = _default;
-},{"../images/1.png":"assets/images/1.png","../images/2.png":"assets/images/2.png","../images/3.png":"assets/images/3.png","../images/4.png":"assets/images/4.png","../images/5.png":"assets/images/5.png","../images/6.png":"assets/images/6.png","../images/7.png":"assets/images/7.png","../images/8.png":"assets/images/8.png","../images/9.png":"assets/images/9.png","../images/10.png":"assets/images/10.png","../images/11.png":"assets/images/11.png"}],"assets/js/data.js":[function(require,module,exports) {
+},{"../images/1.png":"assets/images/1.png","../images/2.png":"assets/images/2.png","../images/3.png":"assets/images/3.png","../images/4.png":"assets/images/4.png","../images/5.png":"assets/images/5.png","../images/6.png":"assets/images/6.png","../images/7.png":"assets/images/7.png","../images/8.png":"assets/images/8.png","../images/9.png":"assets/images/9.png","../images/10.png":"assets/images/10.png"}],"assets/js/data.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -15285,7 +15281,7 @@ exports.reviews = void 0;
 var _images = _interopRequireDefault(require("./images"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var reviews = [{
-  name: "Michael Smith",
+  name: "David Jones",
   position: "Scrum Master",
   image: _images.default.avatar6,
   review: "I like how you can work in a team and collaborate with other developers. You are always willing to share your knowledge and help others improve their work."
@@ -15466,7 +15462,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52335" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53066" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

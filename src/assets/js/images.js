@@ -8,7 +8,6 @@ import avatar7 from "../images/7.png";
 import avatar8 from "../images/8.png";
 import avatar9 from "../images/9.png";
 import avatar10 from "../images/10.png";
-import avatar11 from "../images/11.png";
 
 const images = {
     avatar1,
@@ -21,7 +20,6 @@ const images = {
     avatar8,
     avatar9,
     avatar10,
-    avatar11
 }
 
 export default images
