@@ -15285,55 +15285,55 @@ exports.reviews = void 0;
 var _images = _interopRequireDefault(require("./images"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var reviews = [{
-  name: "Waleed Alkathiri",
-  position: "Frontend Developer",
-  image: _images.default.avatar2,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-}, {
-  name: "Sai Hernández",
-  position: "Full Stack Developer",
-  image: _images.default.avatar3,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-}, {
-  name: "Ali Ebrahimi",
-  position: "Backend developer",
-  image: _images.default.avatar4,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-}, {
-  name: "Erick Sosa",
-  position: "Full Stack Developer",
-  image: _images.default.avatar5,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-}, {
-  name: "Vishal Sharma",
-  position: "Backend Developer",
+  name: "Michael Smith",
+  position: "Scrum Master",
   image: _images.default.avatar6,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  review: "I like how you can work in a team and collaborate with other developers. You are always willing to share your knowledge and help others improve their work."
 }, {
-  name: "Manuel Poot",
-  position: "Fronted Developer",
+  name: "Michelle Enosoae",
+  position: "Frontend Developer",
   image: _images.default.avatar7,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  review: "It's clear that you have a good eye for design. The visual elements of the website are attractive and well integrated into the overall functionality of the site."
 }, {
-  name: "Rey Rejon",
-  position: "Ful Stack Deeveloper",
+  name: "Yara Nasser",
+  position: "Software Architect",
+  image: _images.default.avatar5,
+  review: "The way you organized the code and architecture of the website is very easy to understand and maintain. You really thought about how the website can be scaled in the future."
+}, {
+  name: "Chen Wei",
+  position: "Technology Project Manager",
   image: _images.default.avatar8,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  review: "Your ability to solve problems is impressive. No matter what the problem is, you always find an effective and efficient solution."
 }, {
-  name: "Arely Garcia",
-  position: "Fronted Developer",
-  image: _images.default.avatar9,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-}, {
-  name: "Norma Gutierrez",
-  position: "Student",
+  name: "Luis Sosa",
+  position: "Full-Stack Developer",
   image: _images.default.avatar10,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  review: "Christian is a dedicated engineer who is always learning and staying up-to-date with the latest technologies."
 }, {
-  name: "Lorenzo Garcia",
-  position: "Student",
-  image: _images.default.avatar11,
-  review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  name: "Anna Kovacevic",
+  position: "UX Designer",
+  image: _images.default.avatar2,
+  review: "He has a great eye for design and always creates beautiful and functional user interfaces."
+}, {
+  name: "Tarek Al-Masri",
+  position: "Full-Stack Developer",
+  image: _images.default.avatar3,
+  review: "Your front-end development skills are impressive. The website looks fantastic and is very easy to navigate."
+}, {
+  name: "Joon Park",
+  position: "Back-End Developer",
+  image: _images.default.avatar4,
+  review: "You have demonstrated an excellent ability to work with the latest web development languages and tools. I like how you keep your knowledge up to date and apply best practices in your work."
+}, {
+  name: "Miguel García",
+  position: "Frontend Developer",
+  image: _images.default.avatar1,
+  review: "I had the chance to work with him on a web project and he is very knowledgeable in Front-End development."
+}, {
+  name: "Laura Gonzalez",
+  position: "Frontend Developer",
+  image: _images.default.avatar9,
+  review: "Your attention to detail is exceptional. You always review the code and functionality of the website very carefully to ensure everything is perfect."
 }];
 exports.reviews = reviews;
 },{"./images":"assets/js/images.js"}],"assets/js/app.js":[function(require,module,exports) {
@@ -15466,7 +15466,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49942" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52335" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
