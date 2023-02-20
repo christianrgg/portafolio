@@ -155,7 +155,7 @@ ul {
 }
 
 .loading {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -167,7 +167,6 @@ ul {
   display: grid;
   place-items: center;
   font-family: "Orbitron", sans-serif;
-  display: none;
 }
 .loading__box {
   position: relative;
@@ -363,7 +362,7 @@ ul {
 }
 .landing .header {
   position: absolute;
-  top: 1rem;
+  top: -100%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -409,7 +408,7 @@ ul {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 10rem;
+  bottom: -100%;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -417,7 +416,7 @@ ul {
 }
 .landing .scrollDown {
   position: absolute;
-  bottom: 3rem;
+  bottom: -100%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;

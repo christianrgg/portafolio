@@ -15392,6 +15392,21 @@ var barInterval = setInterval(function () {
       duration: 100,
       rotate: "360deg"
     });
+    _gsap.default.to("header", {
+      duration: 1,
+      delay: 2,
+      top: 0
+    });
+    _gsap.default.to(".socials", {
+      duration: 1,
+      delay: 2.5,
+      bottom: "10rem"
+    });
+    _gsap.default.to(".scrollDown", {
+      duration: 1,
+      delay: 3,
+      bottom: "3rem"
+    });
   }
 }, 20);
 
@@ -15462,7 +15477,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50854" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64055" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
