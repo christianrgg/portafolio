@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "gsap": "^3.11.4",
+    "imagesloaded": "^5.0.0",
     "swiper": "^9.0.3",
     "vue": "^3.2.47"
   }
