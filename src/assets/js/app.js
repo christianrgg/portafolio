@@ -2,6 +2,85 @@ import gsap from "gsap";
 import Swiper, {Navigation, Pagination} from "swiper";
 import { reviews } from "./data";
 import imagesLoaded from "imagesLoaded";
+import Scrollbar, { ScrollbarPlugin } from 'smooth-scrollbar';
+import { Options } from "smooth-scrollbar/options";
+
+class DisableScrollPlugin extends ScrollbarPlugin {
+    static pluginName = 'disableScroll';
+  
+    static defaultOptions = {
+      direction: '',
+    };
+  
+    transformDelta(delta) {
+      if (this.options.direction) {
+        delta[this.options.direction] = 0;
+      }
+  
+      return { ...delta };
+    }
+  }
+  
+  // load the plugin
+  Scrollbar.use(DisableScrollPlugin);
+  class AnchorPlugin extends ScrollbarPlugin {
+    static pluginName = 'anchor';
+  
+    onHashChange = () => {
+      this.jumpToHash(window.location.hash);
+    };
+  
+    onClick = (event) => {
+      const { target } = event;
+  
+      if (target.tagName !== 'A') {
+        return;
+      }
+  
+      const hash = target.getAttribute('href');
+  
+      if (!hash || hash.charAt(0) !== '#') {
+        return;
+      }
+  
+      this.jumpToHash(hash);
+    };
+  
+    jumpToHash = (hash) => {
+      const { scrollbar } = this;
+  
+      if (!hash) {
+        return;
+      }    
+  
+      // reset scrollTop
+      scrollbar.containerEl.scrollTop = 0;
+  
+      scrollbar.scrollIntoView(document.querySelector(hash));
+    };
+  
+    onInit() {
+      this.jumpToHash(window.location.hash);
+  
+      window.addEventListener('hashchange', this.onHashChange);
+  
+      this.scrollbar.contentEl.addEventListener('click', this.onClick);
+    }
+  
+    onDestory() {
+      window.removeEventListener('hashchange', this.onHashChange);
+  
+      this.scrollbar.contentEl.removeEventListener('click', this.onClick);
+    }
+  }
+  
+  // usage
+  Scrollbar.use(AnchorPlugin);
+
+
+
+
+
 
 
 const bar = document.querySelector(`.loading__bar--inner`);
@@ -67,8 +146,21 @@ let barInterval = setInterval(()=>{
                 delay: 3,
                 bottom: "3rem",
             });
+            setTimeout(()=>{
+                let options = {
+                    damping: 0.1,
+                    alwaysShowTracks: true,
+                    plugins: {
+                        disableScroll: {
+                          direction: 'x',
+                        },
+                    },
+    
+                };
+                let pageSmoothScroll = Scrollbar.init(document.body,options);
+                pageSmoothScroll.track.xAxis.element.remove();
+            },2);
         });
-        
     }
 },20);
 
