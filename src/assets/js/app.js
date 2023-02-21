@@ -155,7 +155,6 @@ let barInterval = setInterval(()=>{
                           direction: 'x',
                         },
                     },
-    
                 };
                 let pageSmoothScroll = Scrollbar.init(document.body,options);
                 pageSmoothScroll.track.xAxis.element.remove();
